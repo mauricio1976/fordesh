@@ -1,0 +1,235 @@
+body {
+    color:#1b5e20;
+}
+
+nav {
+    height: 15em;
+    
+}
+
+.nav-wrapper {
+    background-color: whitesmoke;
+    
+}
+
+#nav-mobile li a{
+    color: #1b5e20; 
+}
+
+#slidex {
+    color: #1b5e20;
+      
+}
+
+.brand-logo {
+    height: 5em;
+}
+.brand-logo img {
+    width: 40%;
+    margin: 1em;
+    display: block;
+}
+
+.main-card {
+    width: 90%;
+    margin:2.5em auto;
+    
+}
+#reveal {
+    display: flex;
+}
+.m6 {
+    display: inline-block;
+}
+
+.main-contact {
+    display: flex;
+}
+
+.formulario {
+    display: inline-block;
+}
+.map {
+    padding: 2em;
+    display: inline-block;
+    z-index: -2;
+    
+}
+.locacion {
+    display: inline-block;
+}
+/*FORM */
+
+#contact h2{
+  font-size:36px;
+  padding-left: 50px;
+  margin-top: 30px;
+  color: #2196f3;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.3em;
+  padding: 5px 30px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  box-shodew: inherit !important;
+  -moz-box-shodew: inherit !important;
+  -webkit-box-shodow: inherit !important;
+  -o-box-shodow: inherit !important;
+  transition: 0.3s;
+  border: none;
+  font-size: 15px;
+  height: auto;
+  width: 180px;
+  text-align: center;
+}
+.btn:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shodew: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shodow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -o-box-shodow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact-form {
+  background-color: #ffffff;
+}
+#contactForm {
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+#contactForm .btn {
+  padding: 7px 50px;
+  text-align: center;
+  background-color: #38de8a !important;
+  width: 300px;
+  color: #fff !important;
+  box-shadow: inherit;
+}
+#contactForm .btn:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shodew: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shodow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -o-box-shodow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.dropdown-content li {
+  background-color: inherit;
+}
+.dropdown-content li .active {
+  background-color: inherit;
+}
+.dropdown-content li span {
+  color: #8a8a8b;
+}
+.dropdown-content li:hover {
+  background-color: inherit;
+  color: #2196f3;
+}
+.select-wrapper input.select-dropdown {
+  color: #8a8a8b;
+}
+.select-wrapper i {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+textarea.materialize-textarea {
+  margin-bottom: 30px;
+}
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #2196f3;
+}
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #2196f3;
+}
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  box-shadow: inherit;
+}
+.waves-me:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+.btn {
+  margin-left: 10px;
+  padding: 0px 30px;
+  background-color: #2196f3;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+}
+.email-success,
+.email-failed {
+  display: none;
+  text-align: left !important;
+  margin: 0 0 0 0 !important;
+}
+#msgSubmit {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.text-danger {
+  color: red;
+}
+.text-success {
+  color: #5da4d9 ;
+}
+.disabled {
+  background-color: #5da4d9;
+  color: #fff;
+  cursor: default;
+}
+.btn.disabled:focus {
+  background-color: #2196f3;
+  color: #fff;
+  cursor: default;
+}
+.btn.disabled:hover {
+  background-color: #2196f3;
+  color: #fff;
+  cursor: default;
+}
+
+footer.page-footer {
+    background-color: #1b5e20;
+}
+
